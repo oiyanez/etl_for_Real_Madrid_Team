@@ -19,10 +19,11 @@ python webscraping.py
 
 # configuration of s3
 ```sh
-""" to configure s3 
+
+''' to configure s3 
 You have to create your global variables. Example into load.py file 
 Define your Redshift and S3 credentials
-"""
+
 redshift_credentials = {
     'dbname': os.environ.get('REDSHIFT_DATABASE'),
     'user': os.environ.get('REDSHIFT_USER'),
@@ -34,12 +35,20 @@ s3_credentials = {
     'aws_access_key_id': os.environ.get('AWS_ACCESS_KEY_ID'),
     'aws_secret_access_key': os.environ.get('AWS_SECRET_ACCESS_KEY'),
 }
+'''
 
 
 ```
-# to Load S3
-```sh
-# you 
-python load.py  
+# at the end. you should see something like this below 
 ```
+```
+###  Web scraping 
+![Example Image](images/webscraping.png)
 
+## Excel file 
+![Example Image](images/excel.png)
+
+# postgress data 
+![Example Image](images/Postgress.png)
+
+```
