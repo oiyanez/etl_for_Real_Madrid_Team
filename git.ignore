@@ -2,6 +2,6 @@
 __pycache__/
 .vscode/
 .env
-.data/
-.imagenes/
-.src/
+data/
+imagenes/
+src/
