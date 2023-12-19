@@ -1,0 +1,11 @@
+# docker-compose.yml
+version: '3'
+services:
+  etl_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/app
+    environment:
+      - practice_env
