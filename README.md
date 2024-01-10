@@ -1,6 +1,6 @@
-# Game Project 
+# ETL - the Real Madrid Team Values Project 
 
-Para correr el jueguo debes seguir las siguientes instrucciones en la terminal:
+Para correr el script debe ejecutar el siguiente codigo en terminal
 
 # etl_clone
 ```sh
